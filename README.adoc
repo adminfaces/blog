@@ -1,0 +1,20 @@
+= https://adminfaces.github.io/blog/[AdminFaces Blog^]
+:page-layout: base
+:source-language: java
+:icons: font
+:linkattrs:
+:sectanchors:
+:sectlink:
+:!numbered:
+:doctype: book
+:toc: preamble
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+
+image:https://travis-ci.org/adminfaces/blog.svg[Build Status (Travis CI), link=https://travis-ci.org/adminfaces/blog]
+
+
+Source code of https://adminfaces.github.io/site/[AdminFaces^] blog. Access the blog at: https://adminfaces.github.io/blog/[https://adminfaces.github.io/blog/].

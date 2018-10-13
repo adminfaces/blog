@@ -1,0 +1,14 @@
+_drafts/
+_site
+_blog
+.sass-cache
+.DS_Store
+*.swp
+/.ruby-*
+/*.gem
+/.bundle/
+/build/
+/pkg/
+/Gemfile.lock
+.idea
+*.iml

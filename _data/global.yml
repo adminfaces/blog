@@ -1,0 +1,9 @@
+# Site Settings
+title: 'AdminFaces Blog'
+url: 'https://adminfaces.github.io/blog' # the base hostname & protocol for your site
+footer_text: 'AdminFaces Blog'
+
+# Admin Settings
+admin_name: 'adminfaces'
+admin_email: 'rmpestano@gmail.com'
+

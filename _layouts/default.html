@@ -1,0 +1,35 @@
+{% include header.html %}
+
+    {% include title-group.html %}
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div id="post" class="col-md-10">
+                    {% for post in paginator.posts %}
+                        {% include tile.html %}
+                    {% endfor %}
+
+                    {% include pagination.html %}
+                </div>
+                <div id="side" class="col-md-2" style="max-height: 400px;overflow-y:auto">
+                    <i class="fa fa-times fa fa-fw" aria-hidden="true" style="float:right;cursor:pointer;" title="Fechar" onclick="$('#side').hide();$('#post').toggleClass('col-md-10 col-md-12');"> </i>
+                    <a class="twitter-timeline" href="https://twitter.com/admin_faces">Tweets by AdminFaces</a>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+            <hr/>
+            <form action="{{ site.baseurl }}/search/" method="get">
+                <div style="text-align: center;margin: 20px">
+                    <input type="text" id="search-box" class="form-control form-control-lg" type="text" placeholder="Quick search..." name="query" title="Content search">
+                    <br/>
+                    <input class="btn btn-primary btn-lg" type="submit" value="Search" title="Content search">
+                </div>
+            </form>
+            <div id="scrollTop" onclick="window.scrollTo(0,0)">
+                <i class="fa fa-chevron-up"></i>
+            </div>
+        </div>
+    </main>
+
+{% include footer.html %}
