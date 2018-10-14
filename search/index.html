@@ -35,7 +35,7 @@
                                   |  $$$$$$/
                                    \______/
     -->
-    <title>AdminFaces Blog</title>
+    <title>Quick search - AdminFaces Blog</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -105,7 +105,6 @@
 
 
 
-
     
 
 <div class="title-group">
@@ -118,9 +117,7 @@
             <h1 class="special">
                 <span>
                 
-                  <div class="content" style="text-align: center;">
-                         <img src="/blog/img/logo.png" alt="AdminFaces Blog">
-                  </div>
+                    Quick search
                 
                 </span>
             </h1>
@@ -140,163 +137,61 @@
 </div>
 
 
-    <main>
+    <article>
         <div class="container">
             <div class="row">
-                <div id="post" class="col-md-10">
-                    
-                        
-<div class="tile">
-    
-    <div class="inner-guts">
-        <h2 ><a class="post-link" href="/blog/rsjug-encontro-maio/"><strong>RSJUG encontro de Maio</strong> no RSJug</a></h2>
-        <aside>
-            
-            30/04/2018
-            
-                <span style="color:#ddd"> | </span>
-                
-                    <span><a href="/blog/categories/#eventos" target="_blank">eventos</a></span>
-                
-            
-        </aside>
-        <div class="excerpt">Venha participar do nosso próximo encontro, onde iremos abortar temas como DDD, Domain Events e Event Sourcing</div>
-        <a href="/blog/rsjug-encontro-maio/" class="read-more btn btn-info btn-lg">Ler mais <i class="fa fa-angle-right"></i></a>
-        
-        <div class="tags">
-            
-            <span><a href="/blog/tags/#evento">evento</a></span>
-            
-            <span><a href="/blog/tags/#encontro">encontro</a></span>
-            
-            <span><a href="/blog/tags/#ddd">ddd</a></span>
-            
-            <span><a href="/blog/tags/#domainevents">domainevents</a></span>
-            
-            <span><a href="/blog/tags/#eventssourcing">eventssourcing</a></span>
-            
-        </div>
-        
+                <div class="col-md-10 col-md-offset-1">
+                    <form action="/blog/search/" method="get">
+    <div style="text-align: center;margin: 20px">
+        <input type="text" id="search-box" class="form-control form-control-lg" type="text" placeholder="Quick search..." name="query" title="Content based search">
+        <br/>
+        <input class="btn btn-primary btn-lg" type="submit" value="Search" title="Content based search">
     </div>
+</form>
+<ul id="search-results"></ul>
 
-
-</div>
-
-                    
-                        
-<div class="tile">
+<script>
+    window.store = {
     
-    <div class="inner-guts">
-        <h2 ><a class="post-link" href="/blog/rsjug-kotlin/"><strong>Kotlin</strong> no RSJug</a></h2>
-        <aside>
-            
-            12/04/2018
-            
-                <span style="color:#ddd"> | </span>
-                
-                    <span><a href="/blog/categories/#eventos" target="_blank">eventos</a></span>
-                
-            
-        </aside>
-        <div class="excerpt">Em nosso último encontro vimos a linguagem Kotlin, SpringBoot, testes e realizamos um coding dojo</div>
-        <a href="/blog/rsjug-kotlin/" class="read-more btn btn-info btn-lg">Ler mais <i class="fa fa-angle-right"></i></a>
+        "rsjug-encontro-maio": {
+        "title": "&lt;strong&gt;RSJUG encontro de Maio&lt;/strong&gt; no RSJug",
+                "author": "",
+                "category": "",
+                "content": "Table of ContentsProgramação:InscriçõesO Grupo de Usuários Java do RS, o RSJUG, se reúne no dia 05 de Maio de 2015 as 9h da manhã para realizar um encontro com palestras de DDD, Domain Events e Events Sourcing.Programação:Daniel Everling - Domain Driven Design. O que é? O que não é?  Como implementar os contextos de negócio? Preciso de DDD pro meu micro serviço?Profissional com mais de 8 anos de experiência na área de desenvolvimento de aplicações web. Pós-graduado em Engenharia de Software e Pós-graduando em Arquitetura de Software. Entusiasta quando o assunto é arquitetura, qualidade de software, testes, clean code e DDD.Antonio Vilmar Silveira Castro - Comunicando contextos de negócio com eventos de domínioDesenvolvedor de Software Full Stack na DBServer, entusiasta quando o assunto é OO, arquitetura, qualidade de software, agile, clean code e pessoas. Pós graduado-Especialista em Engenharia de Software, possui 10 anos de experiência na área. Atua também como professor e consultor.Humberto Streb - Event Sourcing e o poder do desacoplamentoArquiteto de software na Unicred, entusiasta de Programação Funcional, desbravando os desafios de criar sistemas distribuídos com Event-Sourcing e CQRS. Possui experiência em consultoria e desenvolvimento de produtos, utilizando Java e Scala para criar sistemas reativos.InscriçõesBora trocar conhecimento e aumentar o networking.Inscreva-se aqui",
+        "url": "/rsjug-encontro-maio/"
+    }
+        ,
         
-        <div class="tags">
-            
-            <span><a href="/blog/tags/#evento">evento</a></span>
-            
-            <span><a href="/blog/tags/#kotlin">kotlin</a></span>
-            
-            <span><a href="/blog/tags/#explosed">explosed</a></span>
-            
-            <span><a href="/blog/tags/#mockk">mockk</a></span>
-            
-            <span><a href="/blog/tags/#spekk">spekk</a></span>
-            
-            <span><a href="/blog/tags/#dojo">dojo</a></span>
-            
-            <span><a href="/blog/tags/#jetbrains">jetbrains</a></span>
-            
-        </div>
+        "rsjug-kotlin": {
+        "title": "&lt;strong&gt;Kotlin&lt;/strong&gt; no RSJug",
+                "author": "",
+                "category": "",
+                "content": "Table of ContentsPalestrantesBem-vindo ao KotlinKotlin na vida realCoding dojoAgradecimentosEm nosso ultimo encontro vimos a linguagem funcional Kotlin, uma demo com SpringBoot e Kotlin e ainda realizamos um coding dojo também usando o Kotlin.O encontro ocorreu na Zenvia e tivemos cerca de 15 participantes já que divulgamos o evento poucos dias antes do mesmo (aspecto à melhorar).PalestrantesLarissa Yasin Gonçalves - Bem-vindo ao KotlinBruno \"Maomeh\" Soares - Kotlin na vida realBem-vindo ao KotlinA primeira palestra foi uma introdução ao Kotlin com o objetivo de dar a base para a segunda palestra do evento. A galera engajou bastante fazendo muitas perguntas sobre a linguagem. Todos se mostraram bastante impressionados com o poder e a simplicidade com que a linguagem resolve problemas e facilita a vida do desenvolvedor.Outro fator que chamou à atenção dos participantes é a interoperabilidade do Kotlin com Java.Os slides da palestra podem ser baixados neste link.Kotlin na vida realNa segunda palestra vimos uma demo baseada em um projeto real. Na demo o Bruno mostrou um projeto em Kotlin usando a stack do SpringBoot (SpringMVC, SpringJDBC etc.. ) integrado com o Exposed, um framework ORM desenvolvido pela JetBrains. A demo ainda usava Liquibase (integrado ao SpringBoot) para migrations de banco.O pessoal se mostrou muito interessado e tivemos diversas perguntas sobre varios aspectos da demo.No final da palestra vimos um pouco de testes unitários usando as bibliotecas mockk e Spek rodando em cima da plataforma (engine) do JUuit5.Segue link para o código da demo: https://github.com/rsjug/rsjug-kotlin-realCoding dojoComo as palestras foram muito interessantes e tivemos bastante engajamento dos participantes acabou sobrando pouco tempo para o dojo.Fizemos apenas duas rodadas onde o problema a ser resolvido era o FizzBuzz usando Kotlin.No final, a palestrante Larissa mostrou como resolver o problema usando o operador when e extension functions do Kotlin:AgradecimentosObrigado a todos os participantes e palestrantes por tornarem o evento possível!",
+        "url": "/rsjug-kotlin/"
+    }
+        ,
         
-    </div>
-
-
-</div>
-
-                    
-                        
-<div class="tile">
-    
-    <div class="inner-guts">
-        <h2 ><a class="post-link" href="/blog/sample/">Sample Page</a></h2>
-        <aside>
-            
-            20/03/2001
-            
-                <span style="color:#ddd"> | </span>
-                
-                    <span><a href="/blog/categories/#blog" target="_blank">blog</a></span>
-                
-                    <span><a href="/blog/categories/#development" target="_blank">development</a></span>
-                
-            
-        </aside>
-        <div class="excerpt">This is a sample page composed in AsciiDoc.</div>
-        <a href="/blog/sample/" class="read-more btn btn-info btn-lg">Ler mais <i class="fa fa-angle-right"></i></a>
+        "sample": {
+        "title": "Sample Page",
+                "author": "",
+                "category": "",
+                "content": "Table of ContentsFirst SectionA sub SectionSecond sectionThis is a sample page composed in AsciiDoc.Jekyll converts it to HTML using Asciidoctor.First Sectionitem 1item 2  123  public static main(String[] args) {        System.out::println(&quot;Hello Jekyll&quot;); (1)}1prints to output consoleThis is rendered by Asciidoctor.A sub SectionSubsection content.Second sectionAnother section with bold and italics and nested lists:List item 1List item 1.1List item 2More details see Asciidoctor quick syntax reference[1] or Asciidoctor user manual.1. http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/",
+        "url": "/sample/"
+    }
         
-        <div class="tags">
-            
-            <span><a href="/blog/tags/#github">github</a></span>
-            
-            <span><a href="/blog/tags/#jekyll">jekyll</a></span>
-            
-            <span><a href="/blog/tags/#asciidoc">asciidoc</a></span>
-            
-        </div>
         
-    </div>
-
-
-</div>
-
-                    
-
-                    <nav class="pagination-wrap">
-    <ul class="pagination">
-        
-
-        
-            
-            <li class="active">
-                <a href="#">1</a>
-            </li>
-            
-        
-
-        
-    </ul>
-</nav>
+    };
+</script>
+<script src="/blog/js/lunr.min.js"></script>
+<script src="/blog/js/search.js"></script>
                 </div>
-                <div id="side" class="col-md-2" style="max-height: 400px;overflow-y:auto">
-                    <i class="fa fa-times fa fa-fw" aria-hidden="true" style="float:right;cursor:pointer;" title="Fechar" onclick="$('#side').hide();$('#post').toggleClass('col-md-10 col-md-12');"> </i>
-                    <a class="twitter-timeline" href="https://twitter.com/admin_faces">Tweets by AdminFaces</a>
-                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
+	   	
+
             </div>
-            <hr/>
-            <form action="/blog/search/" method="get">
-                <div style="text-align: center;margin: 20px">
-                    <input type="text" id="search-box" class="form-control form-control-lg" type="text" placeholder="Quick search..." name="query" title="Content search">
-                    <br/>
-                    <input class="btn btn-primary btn-lg" type="submit" value="Search" title="Content search">
-                </div>
-            </form>
-            <div id="scrollTop" onclick="window.scrollTo(0,0)">
-                <i class="fa fa-chevron-up"></i>
-            </div>
+	
         </div>
-    </main>
+    </article>
+
 
 <footer class="site-footer">
     <div class="container">
@@ -421,3 +316,5 @@
 </script>
 </body>
 </html>
+
+
