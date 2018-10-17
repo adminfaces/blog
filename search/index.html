@@ -88,12 +88,16 @@
                 </li>
                 
                 <li>
-                    <a href="/blog/index"><b>Index</b></a>
+                    <a href="/blog/index"><b>Blog index</b></a>
+                </li>
+                
+                <li>
+                    <a href="https://adminfaces.github.io/site/"><b>AdminFaces</b></a>
                 </li>
                 
 
                 <li style="margin-left: 80px" class="hidden-custom">
-                    <a href="https://github.com/adminfaces/blog"><img
+                    <a href="https://github.com/adminfaces/blog/" target="_blank"><img
                             style="position: absolute; top: 0; right: 0; border: 0;"
                             src="/blog/img/forkme.png"
                             alt="Fork me on GitHub"></a>
@@ -107,13 +111,8 @@
 
     
 
-<div class="title-group">
-    <div class="row">
-        <div class="col-md-3  col-sm-12">
-            <h3 style="font-style: italic;font-weight: bold"> Welcome to</h3>
-        </div>
 
-        <div class="col-md-6 col-sm-12">
+<div class="title-group">
             <h1 class="special">
                 <span>
                 
@@ -121,11 +120,6 @@
                 
                 </span>
             </h1>
-        </div>
-        <div class="col-md-3 col-sm-12">
-            <h3 style="font-style: italic"> Blog</h3>
-        </div>
-    </div>
     
     <p class="lead" style="display: none">
         
@@ -153,30 +147,12 @@
 <script>
     window.store = {
     
-        "rsjug-encontro-maio": {
-        "title": "&lt;strong&gt;RSJUG encontro de Maio&lt;/strong&gt; no RSJug",
-                "author": "",
+        "rc19-release": {
+        "title": "AdminFaces RC19 Release",
+                "author": "rmpestano",
                 "category": "",
-                "content": "Table of ContentsProgramação:InscriçõesO Grupo de Usuários Java do RS, o RSJUG, se reúne no dia 05 de Maio de 2015 as 9h da manhã para realizar um encontro com palestras de DDD, Domain Events e Events Sourcing.Programação:Daniel Everling - Domain Driven Design. O que é? O que não é?  Como implementar os contextos de negócio? Preciso de DDD pro meu micro serviço?Profissional com mais de 8 anos de experiência na área de desenvolvimento de aplicações web. Pós-graduado em Engenharia de Software e Pós-graduando em Arquitetura de Software. Entusiasta quando o assunto é arquitetura, qualidade de software, testes, clean code e DDD.Antonio Vilmar Silveira Castro - Comunicando contextos de negócio com eventos de domínioDesenvolvedor de Software Full Stack na DBServer, entusiasta quando o assunto é OO, arquitetura, qualidade de software, agile, clean code e pessoas. Pós graduado-Especialista em Engenharia de Software, possui 10 anos de experiência na área. Atua também como professor e consultor.Humberto Streb - Event Sourcing e o poder do desacoplamentoArquiteto de software na Unicred, entusiasta de Programação Funcional, desbravando os desafios de criar sistemas distribuídos com Event-Sourcing e CQRS. Possui experiência em consultoria e desenvolvimento de produtos, utilizando Java e Scala para criar sistemas reativos.InscriçõesBora trocar conhecimento e aumentar o networking.Inscreva-se aqui",
-        "url": "/rsjug-encontro-maio/"
-    }
-        ,
-        
-        "rsjug-kotlin": {
-        "title": "&lt;strong&gt;Kotlin&lt;/strong&gt; no RSJug",
-                "author": "",
-                "category": "",
-                "content": "Table of ContentsPalestrantesBem-vindo ao KotlinKotlin na vida realCoding dojoAgradecimentosEm nosso ultimo encontro vimos a linguagem funcional Kotlin, uma demo com SpringBoot e Kotlin e ainda realizamos um coding dojo também usando o Kotlin.O encontro ocorreu na Zenvia e tivemos cerca de 15 participantes já que divulgamos o evento poucos dias antes do mesmo (aspecto à melhorar).PalestrantesLarissa Yasin Gonçalves - Bem-vindo ao KotlinBruno \"Maomeh\" Soares - Kotlin na vida realBem-vindo ao KotlinA primeira palestra foi uma introdução ao Kotlin com o objetivo de dar a base para a segunda palestra do evento. A galera engajou bastante fazendo muitas perguntas sobre a linguagem. Todos se mostraram bastante impressionados com o poder e a simplicidade com que a linguagem resolve problemas e facilita a vida do desenvolvedor.Outro fator que chamou à atenção dos participantes é a interoperabilidade do Kotlin com Java.Os slides da palestra podem ser baixados neste link.Kotlin na vida realNa segunda palestra vimos uma demo baseada em um projeto real. Na demo o Bruno mostrou um projeto em Kotlin usando a stack do SpringBoot (SpringMVC, SpringJDBC etc.. ) integrado com o Exposed, um framework ORM desenvolvido pela JetBrains. A demo ainda usava Liquibase (integrado ao SpringBoot) para migrations de banco.O pessoal se mostrou muito interessado e tivemos diversas perguntas sobre varios aspectos da demo.No final da palestra vimos um pouco de testes unitários usando as bibliotecas mockk e Spek rodando em cima da plataforma (engine) do JUuit5.Segue link para o código da demo: https://github.com/rsjug/rsjug-kotlin-realCoding dojoComo as palestras foram muito interessantes e tivemos bastante engajamento dos participantes acabou sobrando pouco tempo para o dojo.Fizemos apenas duas rodadas onde o problema a ser resolvido era o FizzBuzz usando Kotlin.No final, a palestrante Larissa mostrou como resolver o problema usando o operador when e extension functions do Kotlin:AgradecimentosObrigado a todos os participantes e palestrantes por tornarem o evento possível!",
-        "url": "/rsjug-kotlin/"
-    }
-        ,
-        
-        "sample": {
-        "title": "Sample Page",
-                "author": "",
-                "category": "",
-                "content": "Table of ContentsFirst SectionA sub SectionSecond sectionThis is a sample page composed in AsciiDoc.Jekyll converts it to HTML using Asciidoctor.First Sectionitem 1item 2  123  public static main(String[] args) {        System.out::println(&quot;Hello Jekyll&quot;); (1)}1prints to output consoleThis is rendered by Asciidoctor.A sub SectionSubsection content.Second sectionAnother section with bold and italics and nested lists:List item 1List item 1.1List item 2More details see Asciidoctor quick syntax reference[1] or Asciidoctor user manual.1. http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/",
-        "url": "/sample/"
+                "content": "We are pleased to announce that AdminFaces 1.0.0-RC19 is out!. AdminFaces is a free open source premium PrimeFaces theme and responsive template.Below are the release highlights:14 issues were fixed in Admin template;Also 14 issues were fixed in Admin theme;We&#8217;ve added and released to maven central 2 new maven archetypes: Admin starter SpringBoot and Admin starter Tomcat;Created AdminFaces site to gather all AdminFaces projects information;Created a AdminFaces blog to make announcements and also to add posts about AdminFaces.Created a AdminFaces docs to host AdminFaces documentation.Each release documentation is linked into the site, see here.It is probably our latest release candidate, the next version will probably be v1.0.0!",
+        "url": "/rc19-release/"
     }
         
         
@@ -198,7 +174,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div style="float:left;font-size:10px;">
-                    AdminFaces Blog
+                    <a href="/blog/">AdminFaces Blog</a>
                 </div>
                 <div style="float:right;font-size:11px;">
                     Powered by <a href="http://jekyll.org">Jekyll</a> and <a
