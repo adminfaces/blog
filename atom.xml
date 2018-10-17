@@ -4,7 +4,7 @@
  <title>AdminFaces Blog</title>
  <link href="/site/atom.xml" rel="self"/>
  <link href="/site/"/>
- <updated>2018-10-17T01:56:48+00:00</updated>
+ <updated>2018-10-17T02:44:10+00:00</updated>
  <id>https://adminfaces.github.io/blog</id>
  <author>
    <name>adminfaces</name>
@@ -41,7 +41,7 @@
 &lt;p&gt;Created a &lt;a href=&quot;https://adminfaces.github.io/site/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AdminFaces blog&lt;/a&gt; to make announcements and also to add posts about AdminFaces.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Created a &lt;a href=&quot;https://adminfaces.github.io/site/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AdminFaces docs&lt;/a&gt; to host AdminFaces documentation.&lt;/p&gt;
+&lt;p&gt;Created a &lt;a href=&quot;https://github.com/adminfaces/admin-docs&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AdminFaces docs&lt;/a&gt; to host AdminFaces documentation.&lt;/p&gt;
 &lt;div class=&quot;admonitionblock note&quot;&gt;
 &lt;table&gt;
 &lt;tr&gt;
