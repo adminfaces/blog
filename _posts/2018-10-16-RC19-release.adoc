@@ -24,8 +24,8 @@ Below are the release highlights:
 * Also https://github.com/adminfaces/admin-theme/milestone/15?closed=1[14 issues^] were fixed in `Admin theme`;
 * We've added and released to maven central 2 new maven archetypes: https://github.com/adminfaces/admin-starter-springboot-archetype[Admin starter SpringBoot^] and https://github.com/adminfaces/admin-starter-tomcat-archetype[Admin starter Tomcat^];
 * Created https://adminfaces.github.io/site/[AdminFaces site^] to gather all AdminFaces projects information;
-* Created a https://adminfaces.github.io/site/[AdminFaces blog^] to make announcements and also to add posts about AdminFaces.
-* Created a https://github.com/adminfaces/admin-docs[AdminFaces docs^] to host AdminFaces documentation.
+* Created https://adminfaces.github.io/site/[AdminFaces blog^] to make announcements and also to add posts about AdminFaces.
+* Created https://github.com/adminfaces/admin-docs[AdminFaces docs^] to host AdminFaces documentation.
 +
 NOTE: Each release documentation is linked into the site, https://adminfaces.github.io/site/#Documentation[see here^].
 
