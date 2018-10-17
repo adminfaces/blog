@@ -1,3 +1,4 @@
+{% assign author = site.authors[page.author] %}
 {% if page.featured_image or page.featured_video_id %}
 <div class="topper">
     {% if page.featured_image %}
@@ -11,12 +12,6 @@
 {% endif %}
 
 <div class="title-group">
-    <div class="row">
-        <div class="col-md-3  col-sm-12">
-            <h3 style="font-style: italic;font-weight: bold"> Welcome to</h3>
-        </div>
-
-        <div class="col-md-6 col-sm-12">
             <h1 class="special">
                 <span>
                 {% if page.title %}
@@ -28,13 +23,11 @@
                 {% endif %}
                 </span>
             </h1>
-        </div>
-        <div class="col-md-3 col-sm-12">
-            <h3 style="font-style: italic"> Blog</h3>
-        </div>
-    </div>
     {% if page.id %}
     <aside>
+        {% if author %}
+        By <a href="{{author.site}}" target="_blank">{{author.name}}</a> -
+        {% endif %}
         {{ page.date | date: "%d/%m/%Y %H:%M:%S" }}
         {% if page.categories != empty %}
         <span style="color:#ddd"> | </span>

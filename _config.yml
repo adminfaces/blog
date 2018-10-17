@@ -85,3 +85,9 @@ exclude:
 
 disqus:
     shortname: 'https-adminfaces-github-io-blog'
+
+authors:
+  rmpestano:
+    name: Rafael Pestano
+    email: rmpestano@gmail.com
+    site: https://github.com/rmpestano/

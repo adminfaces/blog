@@ -1,4 +1,4 @@
-{% assign author = site.data.authors[page.author] %}
+{% assign author = site.authors[post.author] %}
 <div class="tile">
     {% if post.featured_image or post.featured_video_id %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="featurette">
@@ -15,7 +15,7 @@
         <h2 ><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <aside>
             {% if author %}
-             Por <a href="{{author.site}}" target="_blank">{{author.name}}</a> -
+             By <a href="{{author.site}}" target="_blank">{{author.name}}</a> -
             {% endif %}
             {{post.date | date: "%d/%m/%Y" }}
             {% if post.categories != empty %}
@@ -26,7 +26,7 @@
             {% endif %}
         </aside>
         <div class="excerpt">{{ post.excerpt }}</div>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="read-more btn btn-info btn-lg">Ler mais <i class="fa fa-angle-right"></i></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="read-more btn btn-info btn-lg">Read more <i class="fa fa-angle-right"></i></a>
         {% if post.tags != empty %}
         <div class="tags">
             {% for tag in post.tags %}
