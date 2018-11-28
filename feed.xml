@@ -5,8 +5,8 @@
     <description></description>
     <link>https://adminfaces.github.io/blog/blog/</link>
     <atom:link href="https://adminfaces.github.io/blog/blog/site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Nov 2018 21:36:12 +0000</pubDate>
-    <lastBuildDate>Wed, 28 Nov 2018 21:36:12 +0000</lastBuildDate>
+    <pubDate>Wed, 28 Nov 2018 21:48:06 +0000</pubDate>
+    <lastBuildDate>Wed, 28 Nov 2018 21:48:06 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -16,6 +16,7 @@
 &lt;ul class=&quot;sectlevel1&quot;&gt;
 &lt;li&gt;&lt;a href=&quot;#admin_template&quot;&gt;Admin Template&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#admin_theme&quot;&gt;Admin Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#whats_next&quot;&gt;What&amp;#8217;s next&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div id=&quot;preamble&quot;&gt;
@@ -98,6 +99,22 @@
 &lt;/div&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;whats_next&quot;&gt;What&amp;#8217;s next&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We are working hard on &lt;a href=&quot;https://github.com/adminfaces/admin-addon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Admin Addon&lt;/a&gt; to providing easy setup and scaffolding (a.k.a code generation of boilerplate code) for AdminFaces.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We plan to &lt;strong&gt;release v1.0.0&lt;/strong&gt; when scaffolding is finished, that&amp;#8217;s probably in next month or early 2019!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+Always bet on Prime and Admin!
+&lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
