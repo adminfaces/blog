@@ -1,0 +1,41 @@
+---
+layout: inner
+categories: release
+permalink: /rc20-release/
+tags:
+- release
+- announcement
+excerpt: AdminFaces <b>1.0.0-RC20</b> is now released!
+comments: true
+author: rmpestano
+---
+= AdminFaces RC19 Release
+:toc:
+:revdate: 2018-11-28 22:00:00 GMT-0300
+
+We are glad to announce that AdminFaces `1.0.0-RC20` is out!. AdminFaces is a *free open source premium `PrimeFaces` theme and responsive `template`*.
+
+This release fixes an important issue with SpringBoot integration, see https://github.com/adminfaces/admin-starter-springboot/issues/4[details here^].
+
+Below are the release highlights:
+
+
+== Admin Template
+
+Enhancements:: 
+* Add Chinese language support (https://github.com/adminfaces/admin-template/issues/135[#135^])
+* Create template base to share common parts of admin template (https://github.com/adminfaces/admin-template/issues/140[#140^])
+
+Bug fixes:: 
+* Layout options freezes most functions (https://github.com/adminfaces/admin-starter-springboot/issues/4[#4^])
+* Restore defaults in controlsidebar is not reseting skin (https://github.com/adminfaces/admin-template/issues/139[#139^])
+* Load template from resources folder(https://github.com/adminfaces/admin-template/pull/137[#137^])
+ 
+Infrastructure::
+* Pull requests builds are failing (https://github.com/adminfaces/admin-template/pull/136[#136^])
+
+== Admin Theme
+ 
+ Bug fixes:: 
+* Spinner icon misaligned when used on datatable filters (https://github.com/adminfaces/admin-theme/issues/213[#213^])
+* Icon effect is misrendered on datatable columns (https://github.com/adminfaces/admin-theme/issues/214[#214]) 
