@@ -4,7 +4,7 @@
  <title>AdminFaces Blog</title>
  <link href="/site/atom.xml" rel="self"/>
  <link href="/site/"/>
- <updated>2018-11-28T21:48:06+00:00</updated>
+ <updated>2018-11-28T21:51:22+00:00</updated>
  <id>https://adminfaces.github.io/blog</id>
  <author>
    <name>adminfaces</name>
@@ -112,7 +112,7 @@
 &lt;h2 id=&quot;whats_next&quot;&gt;What&amp;#8217;s next&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;We are working hard on &lt;a href=&quot;https://github.com/adminfaces/admin-addon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Admin Addon&lt;/a&gt; to providing easy setup and scaffolding (a.k.a code generation of boilerplate code) for AdminFaces.&lt;/p&gt;
+&lt;p&gt;We are working hard on &lt;a href=&quot;https://github.com/adminfaces/admin-addon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Admin Addon&lt;/a&gt; which will provide easy setup and scaffolding (a.k.a code generation of boilerplate code) for AdminFaces.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;We plan to &lt;strong&gt;release v1.0.0&lt;/strong&gt; when scaffolding is finished, that&amp;#8217;s probably in next month or early 2019!&lt;/p&gt;
