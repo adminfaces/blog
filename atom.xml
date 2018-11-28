@@ -4,7 +4,7 @@
  <title>AdminFaces Blog</title>
  <link href="/site/atom.xml" rel="self"/>
  <link href="/site/"/>
- <updated>2018-11-28T21:53:25+00:00</updated>
+ <updated>2018-11-28T22:39:18+00:00</updated>
  <id>https://adminfaces.github.io/blog</id>
  <author>
    <name>adminfaces</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>AdminFaces RC20 Release</title>
    <link href="https://adminfaces.github.io/blog/rc20-release/"/>
-   <updated>2018-11-29T01:00:00+00:00</updated>
+   <updated>2018-11-28T21:00:00+00:00</updated>
    <id>https://adminfaces.github.io/blog/RC20-release</id>
    <content type="html">&lt;div id=&quot;toc&quot; class=&quot;toc&quot;&gt;
 &lt;div id=&quot;toctitle&quot;&gt;Table of Contents&lt;/div&gt;
