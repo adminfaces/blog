@@ -9,7 +9,7 @@ excerpt: AdminFaces <b>1.0.0-RC20</b> is now released!
 comments: true
 author: rmpestano
 ---
-= AdminFaces RC19 Release
+= AdminFaces RC20 Release
 :toc:
 :revdate: 2018-11-28 22:00:00 GMT-0300
 
