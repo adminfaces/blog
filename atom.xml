@@ -4,13 +4,110 @@
  <title>AdminFaces Blog</title>
  <link href="/site/atom.xml" rel="self"/>
  <link href="/site/"/>
- <updated>2018-10-17T02:45:26+00:00</updated>
+ <updated>2018-11-28T21:33:05+00:00</updated>
  <id>https://adminfaces.github.io/blog</id>
  <author>
    <name>adminfaces</name>
    <email>rmpestano@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>AdminFaces RC19 Release</title>
+   <link href="https://adminfaces.github.io/blog/rc20-release/"/>
+   <updated>2018-11-29T01:00:00+00:00</updated>
+   <id>https://adminfaces.github.io/blog/RC20-release</id>
+   <content type="html">&lt;div id=&quot;toc&quot; class=&quot;toc&quot;&gt;
+&lt;div id=&quot;toctitle&quot;&gt;Table of Contents&lt;/div&gt;
+&lt;ul class=&quot;sectlevel1&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#admin_template&quot;&gt;Admin Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#admin_theme&quot;&gt;Admin Theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We are glad to announce that AdminFaces &lt;code&gt;1.0.0-RC20&lt;/code&gt; is out!. AdminFaces is a &lt;strong&gt;free open source premium &lt;code&gt;PrimeFaces&lt;/code&gt; theme and responsive &lt;code&gt;template&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This release fixes an important issue with SpringBoot integration, see &lt;a href=&quot;https://github.com/adminfaces/admin-starter-springboot/issues/4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;details here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Below are the release highlights:&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;admin_template&quot;&gt;Admin Template&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Enhancements&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Add Chinese language support (&lt;a href=&quot;https://github.com/adminfaces/admin-template/issues/135&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#135&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create template base to share common parts of admin template (&lt;a href=&quot;https://github.com/adminfaces/admin-template/issues/140&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#140&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Bug fixes&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Layout options freezes most functions (&lt;a href=&quot;https://github.com/adminfaces/admin-starter-springboot/issues/4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#4&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Restore defaults in controlsidebar is not reseting skin (&lt;a href=&quot;https://github.com/adminfaces/admin-template/issues/139&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#139&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Load template from resources folder(&lt;a href=&quot;https://github.com/adminfaces/admin-template/pull/137&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#137&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Infrastructure&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pull requests builds are failing (&lt;a href=&quot;https://github.com/adminfaces/admin-template/pull/136&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#136&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;admin_theme&quot;&gt;Admin Theme&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Bug fixes&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Spinner icon misaligned when used on datatable filters (&lt;a href=&quot;https://github.com/adminfaces/admin-theme/issues/213&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#213&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Icon effect is misrendered on datatable columns (&lt;a href=&quot;https://github.com/adminfaces/admin-theme/issues/214&quot;&gt;#214&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+ </entry>
  
  <entry>
    <title>AdminFaces RC19 Release</title>
