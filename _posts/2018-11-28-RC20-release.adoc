@@ -39,3 +39,12 @@ Infrastructure::
  Bug fixes:: 
 * Spinner icon misaligned when used on datatable filters (https://github.com/adminfaces/admin-theme/issues/213[#213^])
 * Icon effect is misrendered on datatable columns (https://github.com/adminfaces/admin-theme/issues/214[#214]) 
+
+== What's next
+
+We are working hard on https://github.com/adminfaces/admin-addon[Admin Addon^] to providing easy setup and scaffolding (a.k.a code generation of boilerplate code) for AdminFaces. 
+
+We plan to *release v1.0.0* when scaffolding is finished, that's probably in next month or early 2019!
+
+[quote]
+Always bet on Prime and Admin!  
