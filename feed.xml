@@ -5,8 +5,8 @@
     <description></description>
     <link>https://adminfaces.github.io/blog/blog/</link>
     <atom:link href="https://adminfaces.github.io/blog/blog/site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Feb 2019 09:48:10 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Feb 2019 09:48:10 +0000</lastBuildDate>
+    <pubDate>Wed, 06 Feb 2019 09:54:58 +0000</pubDate>
+    <lastBuildDate>Wed, 06 Feb 2019 09:54:58 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -23,10 +23,10 @@
 &lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;We are glad to announce that AdminFaces &lt;code&gt;1.0.0-RC21&lt;/code&gt; has been released!. AdminFaces is a &lt;strong&gt;free, open source premium &lt;code&gt;PrimeFaces&lt;/code&gt; theme and responsive JSF &lt;code&gt;template&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We are glad to announce that AdminFaces &lt;code&gt;1.0.0-RC21&lt;/code&gt; has been released!. AdminFaces is a &lt;strong&gt;free, open source and premium &lt;code&gt;PrimeFaces&lt;/code&gt; theme and responsive JSF &lt;code&gt;template&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This release brings support for PrimeFaces 7.x as well as &lt;code&gt;5.3.x&lt;/code&gt; (see &lt;a href=&quot;https://adminfaces.github.io/site/docs/latest/#legacy_classifier&quot;&gt;^legacy classifier&lt;/a&gt;), adds two new components, borderless support for datatable, a new maven archetype and much more!&lt;/p&gt;
+&lt;p&gt;This release brings support for PrimeFaces 7.x as well as &lt;code&gt;5.3.x&lt;/code&gt; (see &lt;a href=&quot;https://adminfaces.github.io/site/docs/latest/#legacy_classifier&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;legacy classifier&lt;/a&gt;), adds two new components, borderless support for datatable, a new maven archetype and much more!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Below are the release highlights per project:&lt;/p&gt;
