@@ -13,9 +13,9 @@ author: rmpestano
 :toc:
 :revdate: 2019-02-05 18:00:00 GMT-0300
 
-We are glad to announce that AdminFaces `1.0.0-RC21` has been released!. AdminFaces is a *free, open source premium `PrimeFaces` theme and responsive JSF `template`*.
+We are glad to announce that AdminFaces `1.0.0-RC21` has been released!. AdminFaces is a *free, open source and premium `PrimeFaces` theme and responsive JSF `template`*.
 
-This release brings support for PrimeFaces 7.x as well as `5.3.x` (see https://adminfaces.github.io/site/docs/latest/#legacy_classifier[^legacy classifier]), adds two new components, borderless support for datatable, a new maven archetype and much more!
+This release brings support for PrimeFaces 7.x as well as `5.3.x` (see https://adminfaces.github.io/site/docs/latest/#legacy_classifier[legacy classifier^]), adds two new components, borderless support for datatable, a new maven archetype and much more!
 
  
 Below are the release highlights per project:
