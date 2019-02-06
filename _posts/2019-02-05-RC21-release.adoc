@@ -1,0 +1,71 @@
+---
+layout: inner
+categories: release
+permalink: /rc21-release/
+tags:
+- release
+- announcement
+excerpt: AdminFaces <b>1.0.0-RC21</b> is out with support for PrimeFaces 7.x, bringing the new DatePicker and ToggleSwitch components and much more!
+comments: true
+author: rmpestano
+---
+= AdminFaces RC20 Release
+:toc:
+:revdate: 2019-02-05 18:00:00 GMT-0300
+
+We are glad to announce that AdminFaces `1.0.0-RC21` has been released!. AdminFaces is a *free, open source premium `PrimeFaces` theme and responsive JSF `template`*.
+
+This release brings support for PrimeFaces 7.x as well as `5.3.x` (see https://adminfaces.github.io/site/docs/latest/#legacy_classifier[^legacy classifier]), adds two new components, borderless support for datatable, a new maven archetype and much more!
+
+ 
+Below are the release highlights per project:
+
+
+== Admin Template
+
+Enhancements:: 
+* Multi-level menu fail to auto activate when nested on level > 1 (https://github.com/adminfaces/admin-template/issues/145[#145^])
+* Make 'content' div a JSF component (https://github.com/adminfaces/admin-template/issues/150[#150^])
+* Add support for PrimeFaces 7.x (https://github.com/adminfaces/admin-template/issues/151[#151^])
+* Print admin-persistence version (https://github.com/adminfaces/admin-template/issues/153[#153^])
+* Added arabic support (https://github.com/adminfaces/admin-template/issues/154[#154^])
+* Add PrimeFaces calendar locales for supported AdminFaces languages (https://github.com/adminfaces/admin-template/issues/155[#155^])
+
+Bug fixes:: 
+* IndexOutOfBounds on breadcrumb support bug (https://github.com/adminfaces/admin-template/issues/143[#143^])
+* AdminFaces redirects over http when using a load balancer (https://github.com/adminfaces/admin-template/issues/147[#147^])
+* Problem with primefaces component p:schedule (https://github.com/adminfaces/admin-template/pull/148[#148^])
+* Responsive is not working properly when minimize and maximize the screen (https://github.com/adminfaces/admin-template/pull/149[#149^])
+* Replace href by outcome in error pages (https://github.com/adminfaces/admin-template/issues/152[#152^])
+ 
+
+== Admin Theme
+ 
+ Enhancements:: 
+ * Style DatePicker component (https://github.com/adminfaces/admin-theme/issues/221[#221]) 
+ * Style ToggleSwitch (https://github.com/adminfaces/admin-theme/issues/222[#222]) 
+ * Style SelectMany menu (https://github.com/adminfaces/admin-theme/issues/223[#223]) 
+ * Increase tree expand icon size (https://github.com/adminfaces/admin-theme/issues/224[#224]) 
+ * Datatable with no borders (https://github.com/adminfaces/admin-theme/issues/225[#225]) 
+ * Style datatable rowGrouping (https://github.com/adminfaces/admin-theme/issues/227[#227]) 
+ 
+ Bug fixes:: 
+* Fix modal dialogs z-index (https://github.com/adminfaces/admin-theme/issues/219[#219]) 
+* Double vertical scroll bar when using multlevel menu (https://github.com/adminfaces/admin-theme/issues/216[#216^])
+* Modal dialog should overlay navbar (https://github.com/adminfaces/admin-theme/issues/220[#220]) 
+* p:triStateCheckbox not working (https://github.com/adminfaces/admin-theme/issues/226[#226]) 
+
+
+== Maven archetypes
+
+A new maven archetype has been published to maven central, it is the https://github.com/adminfaces/admin-starter-persistence-archetype[admin-starter-persistence-archetype^].
+
+This archetype generates a starter project which uses https://deltaspike.apache.org/[DeltaSpike^] data, CDI and EJB for the persistence layer.
+
+== Towards 1.0 release
+
+For the 1.0 release we want to have AdminFaces scaffold done and the good news is that it is almost there! The work on https://github.com/adminfaces/admin-addon[AdminFaces Addon^] has progressed a lot. What is left is just scaffolding configuration and we also decided to add SpringBoot support on the scaffold which may delay a little bit the 1.0 release.
+
+
+[quote]
+Always bet on Prime and Admin!  
