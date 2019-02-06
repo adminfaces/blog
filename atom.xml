@@ -4,7 +4,7 @@
  <title>AdminFaces Blog</title>
  <link href="/site/atom.xml" rel="self"/>
  <link href="/site/"/>
- <updated>2019-02-06T09:54:58+00:00</updated>
+ <updated>2019-02-06T09:57:11+00:00</updated>
  <id>https://adminfaces.github.io/blog</id>
  <author>
    <name>adminfaces</name>
@@ -163,7 +163,7 @@
 &lt;h2 id=&quot;towards_1_0_release&quot;&gt;Towards 1.0 release&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;For the 1.0 release we want to have AdminFaces scaffold done and the good news is that it is almost there! The work on &lt;a href=&quot;https://github.com/adminfaces/admin-addon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AdminFaces Addon&lt;/a&gt; has progressed a lot. What is left is just scaffolding configuration and we also decided to add SpringBoot support on the scaffold which may delay a little bit the 1.0 release.&lt;/p&gt;
+&lt;p&gt;For the 1.0 release we want to have AdminFaces scaffold done and the good news is that it is almost there! The work on &lt;a href=&quot;https://github.com/adminfaces/admin-addon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AdminFaces Addon&lt;/a&gt; has progressed a lot. What is left is just scaffolding configuration and we also decided to add SpringBoot support which may delay a little bit the 1.0 release.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;quoteblock&quot;&gt;
 &lt;blockquote&gt;
