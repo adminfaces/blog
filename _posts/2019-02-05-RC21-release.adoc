@@ -9,7 +9,7 @@ excerpt: AdminFaces <b>1.0.0-RC21</b> is out with support for PrimeFaces 7.x, br
 comments: true
 author: rmpestano
 ---
-= AdminFaces RC20 Release
+= AdminFaces RC21 Release
 :toc:
 :revdate: 2019-02-05 18:00:00 GMT-0300
 
