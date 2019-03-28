@@ -5,8 +5,8 @@
     <description></description>
     <link>https://adminfaces.github.io/blog/blog/</link>
     <atom:link href="https://adminfaces.github.io/blog/blog/site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Mar 2019 05:31:28 +0000</pubDate>
-    <lastBuildDate>Thu, 28 Mar 2019 05:31:28 +0000</lastBuildDate>
+    <pubDate>Thu, 28 Mar 2019 13:47:05 +0000</pubDate>
+    <lastBuildDate>Thu, 28 Mar 2019 13:47:05 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -152,7 +152,7 @@
 &lt;h2 id=&quot;admin_addon&quot;&gt;Admin Addon&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This release brings scaffold for AdminFaces application via JBoss Forge. Forge can be used on your favorite IDE as well integrated on the command line of your via cli on your preferred operating system.&lt;/p&gt;
+&lt;p&gt;This release brings scaffold for AdminFaces application via &lt;a href=&quot;https://forge.jboss.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;JBoss Forge&lt;/a&gt;. Forge can be used on your favorite IDE as well integrated on the command line of your via cli on your preferred operating system.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Admin Addon provides &lt;code&gt;setup of AdminFaces applications&lt;/code&gt; (adds required dependencies, configurations files etc&amp;#8230;&amp;#8203;), &lt;code&gt;scaffold from JPA entities&lt;/code&gt; as well as &lt;code&gt;integration tests&lt;/code&gt; generation from services.&lt;/p&gt;
