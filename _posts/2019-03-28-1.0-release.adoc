@@ -57,7 +57,7 @@ Bug fixes::
 
 == Admin Addon
 
-This release brings scaffold for AdminFaces application via JBoss Forge. Forge can be used on your favorite IDE as well integrated on the command line of your via cli on your preferred operating system.
+This release brings scaffold for AdminFaces application via https://forge.jboss.org/[JBoss Forge^]. Forge can be used on your favorite IDE as well integrated on the command line of your via cli on your preferred operating system.
 
 Admin Addon provides `setup of AdminFaces applications` (adds required dependencies, configurations files etc...), `scaffold from JPA entities` as well as `integration tests` generation from services.
 
