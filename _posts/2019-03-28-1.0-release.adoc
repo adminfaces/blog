@@ -13,7 +13,7 @@ author: rmpestano
 :toc:
 :revdate: 2019-03-28 18:00:00 GMT-0300
 
-After `2 years` of development and community feedback and awesome contributions and after 22 release candidates we are very excited to announce that *AdminFaces 1.0.0 has just been unleashed!* AdminFaces is a *free, open source and premium `PrimeFaces` theme and responsive JSF `template`* based on `Bootstrap` and `AdminLTE`.
+After `2 years` of development, 22 release candidates, community feedback and awesome contributions we are very excited to announce that *AdminFaces 1.0.0 has just been unleashed!* AdminFaces is a *free, open source and premium `PrimeFaces` theme and responsive JSF `template`* based on `Bootstrap` and `AdminLTE`.
 
 Watch the 1.0 announcement video: https://www.youtube.com/watch?v=kg_L8WjOGP8
  
