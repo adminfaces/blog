@@ -1,0 +1,76 @@
+---
+layout: inner
+categories: release
+permalink: /1.0.0/
+tags:
+- release
+- announcement
+excerpt: After 2 years and 22 release candidates we are very excited to announce that AdminFaces <b>1.0.0</b> has just been unleashed!
+comments: true
+author: rmpestano
+---
+= AdminFaces 1.0.0 Release
+:toc:
+:revdate: 2019-03-28 18:00:00 GMT-0300
+
+After `2 years` of development and community feedback and awesome contributions and after 22 release candidates we are very excited to announce that *AdminFaces 1.0.0 has just been unleashed!* AdminFaces is a *free, open source and premium `PrimeFaces` theme and responsive JSF `template`* based on `Bootstrap` and `AdminLTE`.
+
+Watch the 1.0 announcement video: https://www.youtube.com/watch?v=kg_L8WjOGP8
+ 
+Below are the release highlights per project:
+
+== Admin Template
+ 
+
+Enhancements:: 
+* Add de_DE translation (https://github.com/adminfaces/admin-template/issues/158[#158^])
+* Add link to previous page on 500.xhtml error page (https://github.com/adminfaces/admin-template/issues/161[#161^])
+* Configuration option to render label asterisks on required fields (https://github.com/adminfaces/admin-template/issues/165[#165^])
+* Use redirect instead of forward when sending user to error pages (https://github.com/adminfaces/admin-template/issues/166[#166^])
+* Adds option to making loading dialog closable (https://github.com/adminfaces/admin-template/issues/167[#167^])
+* Adds link to previous page on 403 and 404 error pages (https://github.com/adminfaces/admin-template/issues/168[#168^])
+* Sidebar menu should be collapsed on viewExpired and optmisticLock error pages (https://github.com/adminfaces/admin-template/issues/169[#169^])
+* Add a threashold to activate autoshow navbar (https://github.com/adminfaces/admin-template/issues/170[#170^])
+* Add mobile header with current active menu (https://github.com/adminfaces/admin-template/issues/171[#171^])
+
+Bug fixes:: 
+* Wrong language selection (https://github.com/adminfaces/admin-template/issues/1172[#172^])
+* adm:sidebar does not collapse sidebar after ajax request (https://github.com/adminfaces/admin-template/issues/173[#173^])
+
+== Admin Theme
+ 
+ Enhancements:: 
+ * Style inplace component (https://github.com/adminfaces/admin-theme/issues/85[#85]) 
+ * Style Notification bar (https://github.com/adminfaces/admin-theme/issues/92[#92]) 
+ * Datalist - Add support for no border (https://github.com/adminfaces/admin-theme/issues/230[#230]) 
+ * Datatable no-border should have centered cell content (https://github.com/adminfaces/admin-theme/issues/231[#231]) 
+ * Style datatable rowExpansion (https://github.com/adminfaces/admin-theme/issues/232[#232]) 
+ * Add support for flat tabs on TabView (https://github.com/adminfaces/admin-theme/issues/233[#233]) 
+ * Asterisks for p:outputlabel / indicateRequired not working (https://github.com/adminfaces/admin-theme/issues/235[#235]) 
+ 
+ Bug fixes:: 
+* Datatable rowGrouping icon not displayed on edge (https://github.com/adminfaces/admin-theme/issues/228[#228]) 
+* Picklist 'remove' arrow is inverted (https://github.com/adminfaces/admin-theme/issues/229[#229^])
+* Tabview scrolable tabs icon is hidden (https://github.com/adminfaces/admin-theme/issues/234[#234]) 
+* Inplace component misalignment (https://github.com/adminfaces/admin-theme/issues/236[#236]) 
+* Remove extra border on input number in error state (https://github.com/adminfaces/admin-theme/issues/237[#237]) 
+
+== Admin Addon
+
+This release brings scaffold for AdminFaces application via JBoss Forge. Forge can be used on your favorite IDE as well integrated on the command line of your via cli on your preferred operating system.
+
+Admin Addon provides `setup of AdminFaces applications` (adds required dependencies, configurations files etc...), `scaffold from JPA entities` as well as `integration tests` generation from services.
+
+More details see the admin addon https://adminfaces.github.io/docs/latest/#scaffold[documentation here^].
+
+NOTE: For now the Addon does not work for SpringBoot projects, we hope to bring SpringBoot support on next release.
+
+== Admin Docs
+
+Docs are now being hosted on the github site of http://github.com/adminfaces/docs[docs repository^].
+
+Admin Docs repository was renamed to just `docs` in order to make link to the docs easier to remember: https://adminfaces.github.io/docs/latest/ or  https://adminfaces.github.io/docs/1.0.0  
+
+
+[quote]
+Always bet on Prime and Admin!  
