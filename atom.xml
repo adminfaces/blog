@@ -4,13 +4,124 @@
  <title>AdminFaces Blog</title>
  <link href="/site/atom.xml" rel="self"/>
  <link href="/site/"/>
- <updated>2019-03-28T14:04:13+00:00</updated>
+ <updated>2019-12-22T20:32:48+00:00</updated>
  <id>https://adminfaces.github.io/blog</id>
  <author>
    <name>adminfaces</name>
    <email>rmpestano@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>AdminFaces 1.1.0 Release</title>
+   <link href="https://adminfaces.github.io/blog/1.1.0/"/>
+   <updated>2019-12-22T21:00:00+00:00</updated>
+   <id>https://adminfaces.github.io/blog/1.1.0-release</id>
+   <content type="html">&lt;div id=&quot;toc&quot; class=&quot;toc&quot;&gt;
+&lt;div id=&quot;toctitle&quot;&gt;Table of Contents&lt;/div&gt;
+&lt;ul class=&quot;sectlevel1&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#admin_template&quot;&gt;Admin Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#admin_theme&quot;&gt;Admin Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#quarkus_showcase_running_on_primefaces_8_0_rc2&quot;&gt;Quarkus Showcase running on PrimeFaces 8.0.RC2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It&amp;#8217;s time to update your premium, free and open source &lt;code&gt;responsive PrimeFaces template&lt;/code&gt; and &lt;code&gt;Bootstrap theme&lt;/code&gt; to &lt;strong&gt;v1.1.0&lt;/strong&gt;!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Below are release 1.1.0 highlights:&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;admin_template&quot;&gt;Admin Template&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Enhancements&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Add ru_RU Russian translation (&lt;a href=&quot;https://github.com/adminfaces/admin-template/issues/187&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#187&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Upgrade OmniFaces to &lt;code&gt;2.7.1&lt;/code&gt; (&lt;a href=&quot;https://github.com/adminfaces/admin-template/issues/195&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#195&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Disable loading bar per page (&lt;a href=&quot;https://github.com/adminfaces/admin-template/issues/196&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#196&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Bug fixes&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fix redirect to encoded URL if URL contains multiple parameters (&lt;a href=&quot;https://github.com/adminfaces/admin-template/issues/194&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#194&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;admin_theme&quot;&gt;Admin Theme&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Enhancements&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Style PrimeFaces 8 Schedule (&lt;a href=&quot;https://github.com/adminfaces/admin-theme/issues/244&quot;&gt;#244&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Bug fixes&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Splitbuttton btn-teal misrendered (&lt;a href=&quot;https://github.com/adminfaces/admin-theme/issues/240&quot;&gt;#240&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;SelectManyButton&lt;/code&gt; widget doesn&amp;#8217;t display correctly in all cases (&lt;a href=&quot;https://github.com/adminfaces/admin-theme/issues/241&quot;&gt;#241&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BreadCrumb get overriden by page title when the title is too big (&lt;a href=&quot;https://github.com/adminfaces/admin-theme/issues/243&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;#243&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Menubar items are hidden when it is inside a panel (&lt;a href=&quot;https://github.com/adminfaces/admin-theme/issues/245&quot;&gt;#245&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;quarkus_showcase_running_on_primefaces_8_0_rc2&quot;&gt;Quarkus Showcase running on PrimeFaces 8.0.RC2&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;See &lt;a href=&quot;http://github.com/adminfaces/quarkus-admin-showcase&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AdminFaces Showcase&lt;/a&gt; running on Quarkus in OpenShift here: &lt;a href=&quot;https://adminfaces.github.io/admin-showcase&quot; class=&quot;bare&quot;&gt;https://adminfaces.github.io/admin-showcase&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+Always bet on Prime and Admin!
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+ </entry>
  
  <entry>
    <title>AdminFaces 1.0.0 Release</title>
