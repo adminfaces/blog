@@ -1,0 +1,50 @@
+---
+layout: inner
+categories: release
+permalink: /1.1.0/
+tags:
+- release
+- announcement
+excerpt: AdminFaces <b>1.1.0</b> has just been released!
+comments: true
+author: rmpestano
+---
+= AdminFaces 1.1.0 Release
+:toc:
+:revdate: 2019-12-22 18:00:00 GMT-0300
+
+
+It's time to update your premium, free and open source `responsive PrimeFaces template` and `Bootstrap theme` to *v1.1.0*!
+
+Below are release 1.1.0 highlights:
+
+== Admin Template
+ 
+
+Enhancements:: 
+* Add ru_RU Russian translation (https://github.com/adminfaces/admin-template/issues/187[#187^])
+* Upgrade OmniFaces to `2.7.1` (https://github.com/adminfaces/admin-template/issues/195[#195^])
+* Disable loading bar per page (https://github.com/adminfaces/admin-template/issues/196[#196^])
+
+Bug fixes:: 
+* Fix redirect to encoded URL if URL contains multiple parameters (https://github.com/adminfaces/admin-template/issues/194[#194^])
+
+
+== Admin Theme
+ 
+ Enhancements:: 
+ * Style PrimeFaces 8 Schedule (https://github.com/adminfaces/admin-theme/issues/244[#244])
+ 
+ Bug fixes:: 
+* Splitbuttton btn-teal misrendered (https://github.com/adminfaces/admin-theme/issues/240[#240])
+* The `SelectManyButton` widget doesn't display correctly in all cases (https://github.com/adminfaces/admin-theme/issues/241[#241])
+* BreadCrumb get overriden by page title when the title is too big (https://github.com/adminfaces/admin-theme/issues/243[#243^])
+* Menubar items are hidden when it is inside a panel (https://github.com/adminfaces/admin-theme/issues/245[#245])
+
+
+== Quarkus Showcase running on PrimeFaces 8.0.RC2
+
+See http://github.com/adminfaces/quarkus-admin-showcase[AdminFaces Showcase^] running on Quarkus in OpenShift here: https://adminfaces.github.io/admin-showcase
+
+[quote]
+Always bet on Prime and Admin!  
